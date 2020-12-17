@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<htmnl lang="en">
+<head>
+<!--CSS FILE-->
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<!--Script-->
+<script type="text/javascript" src="kernel.js"></script>
+<title> Proyecto Final Costos</title>
+</head>
+<body>  
+    <h1> Unidad IV</h1>
+
+    <div id="datos" class="box">
+        <h3>Datos </h3>
+        <form id="form" onsubmit="return false;"> 
+            <label for="c1"><strong>Cargos Indirectos</strong></label>
+            <input type ="text" id="f0" class="field"><br/>
+            <label for="c2"><strong>Compras netas de materia prima</strong></label>
+            <input type ="text" id="f1" class="field"><hr/>
+            <label for="c3"><strong>Inventario inicial de produccion en proceso</strong></label>
+            <input type ="text" id="f2" class="field"><br/>
+            <label for="c5"><strong>Invenario final de produccion en proceso</strong></label>
+            <input type ="text" id="f3" class="fiel"><hr/>
+            <label for="c4"><strong>Mano de obra directa</strong></label>
+            <input type ="text" id="f4" class="field"><hr/>            
+            <label for="c6"><strong>Inventario inicial de materia prima</strong></label>
+            <input type ="text" id="f6" class="field"><br/>
+            <label for="c8"><strong>Inventario final de materia prima</strong></label>
+            <input type ="text" id="f8" class="field"><hr/>
+            <label for="c9"><strong>Inventario inicial de produccion terminada</strong></label>
+            <input type ="text" id="f9" class="field"><br/>
+            <label for="c7"><strong>Inventario final de produccion terminada</strong></label>
+            <input type ="text" id="f7"><hr/>
+            <!--Submit Botton-->
+            <input id="sub" type ="submit">
+            <input id ="clean" type="reset" value="Limpiar">
+            </form>
+        </div>
+        <div id="muestra" class="box" >
+            <h3>Datos de muestra</h3>
+            <ul>
+                <li>Cargos indirectos : $220.000</li>
+                <li>Compras netas de materia prima : $755.000</li>
+                <li>Inventario inicial de produccion en proceso : $410.000</li>
+                <li>Mano de obra directa : $525.000</li>
+                <li>Inventario final de producción en proceso : $815.000</li>
+                <li>Inventario inicial de materia prima : $195.000</li>
+                <li>Inventario final de producción terminada : $365.000</li>
+                <li>Inventario final de materia prima : $332.000</li>
+                <li>Inventario inicial de producción terminada : $220.000</li>
+            </ul>
+        </div>   
+        <div class="ctr"></div>     
+        <div id="cost_prod" class="box lp">
+            <h3>Estado de costos de produccion </h3>
+            <ul id ="ul1"class="ul">
+            </ul>
+        </div>   
+                
+    <div id="prod_vend" class="box lp">
+        <h3>Estado de costos y produccion de lo vendido  </h3>
+        <ul id ="ul2"class="ul">
+        </ul>
+    </div>   
+    
+</body>
+</htmnl>
